@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="10.621" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Login with valid Credentials" name="Successful Login with valid credentials" time="10.522">
+<system-out><![CDATA[
+Given User Launch Browser...................................................passed
+And opens URL "https://www.pinterest.com/"..................................passed
+When User click on Login....................................................passed
+And User enters email as "mailatp.pallavi@gmail.com" and password as "Pallavi@123".passed
+And click on Login button...................................................passed
+Then User navigates to Home Page............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
